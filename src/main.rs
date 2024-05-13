@@ -1,3 +1,7 @@
+#![allow(unused)]
+
+mod chapter3_concepts;
+
 fn arrays_and_loops() {
     let mut arr = [1, 2, 3, 4, 5];
     square(&mut arr[2]);
@@ -101,5 +105,8 @@ fn run_game() -> Option<()> {
 }
 
 fn main() {
-    run_game();
+    // run_game();
+    println!("Hello from src/main.rs!");
+
+    // chapter3_concepts::main();
 }
